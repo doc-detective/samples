@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "id": "checkLink-statusCodes",
+      "description": "Check that a link is available, even through redirects.",
+      "steps": [
+        {
+          "description": "Check for common 2xx (success) or 3xx (redirect) status codes.",
+          "action": "checkLink",
+          "url": "https://www.google.com/images",
+          "statusCodes": [200, 201, 202, 301, 302, 303, 307]
+        }
+      ]
+    }
+  ]
+}

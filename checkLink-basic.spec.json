@@ -1,0 +1,26 @@
+{
+    "tests": [
+      {
+        "id": "checkLink-basic",
+        "description": "This test checks that a few links are available.",
+        "steps": [
+          {
+            "description": "Check if DuckDuckGo is available.",
+            "action": "checkLink",
+            "url": "https://www.duckduckgo.com"
+          },
+          {
+            "description": "Check if Google is available.",
+            "action": "checkLink",
+            "url": "https://www.google.com"
+          },
+          {
+            "description": "Check if Bing is available.",
+            "action": "checkLink",
+            "url": "https://www.bing.com"
+          }
+        ]
+      }
+    ]
+  }
+  
