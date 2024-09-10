@@ -2,7 +2,7 @@
   "tests": [
     {
       "id": "checkLink-origin",
-      "description": "Check that a link is available from a specific origin.",
+      "description": "Check that links are available from a specific origin.",
       "steps": [
         {
           "description": "Check if Google's search page is available.",
